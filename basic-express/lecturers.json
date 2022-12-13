@@ -1,0 +1,30 @@
+[
+   {
+      "id": 1,
+      "name": "Sali2",
+      "subject": "inglish",
+      "age": 29,
+      "city": "kajarta"
+   },
+   {
+      "id": 4,
+      "name": "Jbbrsm",
+      "subject": "kemist",
+      "age": 20,
+      "city": "bali"
+   },
+   {
+      "id": 5,
+      "name": "Sali",
+      "subject": "inglish",
+      "age": 29,
+      "city": "kajarta"
+   },
+   {
+      "id": 6,
+      "name": "Sali2",
+      "subject": "inglish",
+      "age": 29,
+      "city": "kajarta"
+   }
+]

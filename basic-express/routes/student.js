@@ -1,10 +1,15 @@
+
 const studentRoute = require("express").Router();
 const StudentController = require("../controllers/StudentController.js");
 
-studentRoute.get("/", StudentController.getStudents);
+studentRoute.get("/", StudentController.getAllStudents);
 
-studentRoute.get("/create", StudentController.create);
+studentRoute.post("/create", StudentController.create);
 
-studentRoute.get("/information/:userId", StudentController.getInformation);
+studentRoute.get("/information/:studentId", StudentController.getInformation);
+studentRoute.get("/delete/:studentId", StudentController.deleteStudent);
+studentRoute.post("/update/:studentId", StudentController.updateStudent);
+studentRoute.get("/search", StudentController.searchStudent)
+
 
 module.exports = studentRoute;

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Siti",
+        "major": "IPS",
+        "semester": 19,
+        "city": "Surabaya"
+    }, 
+    {
+        "id": 2,
+        "name": "Lola",
+        "subject": "IPA",
+        "semester": 18,
+        "city": "Jakarta"
+    }
+]
